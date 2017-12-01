@@ -1,0 +1,11 @@
+def checkio(data):
+    s=list()
+    
+    for item in data:
+        if data.count(item)>1:
+            s.append(item)
+    
+    
+    
+    
+    return(s)
