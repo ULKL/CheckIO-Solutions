@@ -1,0 +1,11 @@
+def first_word(text: str) -> str:
+    """
+        returns the first word in a given text.
+    """
+    
+    l=[x for x in text]
+    np=''.join(x for x in l if x not in ('.',','))
+    a= np.split()
+    
+    
+    return "%s" % (a[0])
