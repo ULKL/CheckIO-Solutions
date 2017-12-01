@@ -1,0 +1,9 @@
+def correct_sentence(text: str) -> str:
+    """
+        returns a corrected sentence which starts with a capital letter
+        and ends with a dot.
+    """
+    string=str.capitalize(text)
+    if string[-1] == '.':
+        return string
+    return string+'.'
